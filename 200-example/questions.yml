@@ -1,0 +1,29 @@
+---
+questions:
+  first-question:
+    type: answers
+    question: Тут какой то вопрос
+    answers:
+      wrong:
+        - Неправильный ответ 1
+        - Неправильный ответ 2
+      correct:
+        - Правильный ответ
+
+  second-question:
+    type: answers
+    question: |
+
+      Вопрос с примером кода
+
+      ```javascript
+      const a = 5;
+      ```
+
+    answers:
+      wrong:
+        - Неправильный ответ 1
+        - Неправильный ответ 2
+      correct:
+        - Правильный ответ 1
+        - Правильный ответ 2

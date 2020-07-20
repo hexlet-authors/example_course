@@ -1,0 +1,13 @@
+---
+
+lesson:
+  name: Пример
+  goal: Цель урока
+  # video:
+  #   uid: 159181552
+  #   provider: vimeo
+  links:
+    - name: Документация Ansible
+      url: |
+        https://docs.ansible.com/ansible/index.html
+
