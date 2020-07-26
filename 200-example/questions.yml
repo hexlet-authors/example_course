@@ -1,5 +1,7 @@
 ---
+
 questions:
+
   first-question:
     type: answers
     question: Тут какой то вопрос
@@ -27,3 +29,12 @@ questions:
       correct:
         - Правильный ответ 1
         - Правильный ответ 2
+
+  another-question:
+    type: filling
+    question: |
+      Сделайте так чтобы был выполнен `HEAD` запрос к веб-серверу
+    text: |
+      curl --%{key} hexlet.io\r\n
+    answers:
+      key: head
